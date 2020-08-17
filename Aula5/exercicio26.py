@@ -1,2 +1,5 @@
-n = str(input('Digite uma Frase : '))
-print('Quantas vezes aparece a letra A: {} \nO Primeiro A Começa na Posição: {}'.format(n.count('a'),n.split().find('a'))
+n = str(input('Digite uma Frase : ')).strip()
+n = n.lower()
+print('Quantas vezes aparece a letra A: {}'.format(n.count('a') ))
+print('A letra A aparece na posição: {} '.format(n.find('a')+1))
+print('A ultima letra A aparece na posição: {}'.format(n.rfind('a')+1))
