@@ -1,2 +1,0 @@
-print('olá mundo')
-p
