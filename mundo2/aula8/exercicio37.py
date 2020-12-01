@@ -3,13 +3,13 @@ print('escolha uma das alternativas abaixo')
 print('1-Binario')
 print('2-Octadecimal')
 print('3-Hexadecimal')
-con = int(input(''))
+con = int(input('Qual a sua opção: '))
 if con == 1:
-    print('Olá,Mundo')
+    print('{} convertido para BINARIO é igual a {}'.format(bin(num)[2:]))
 elif con == 2:
-    print('Olá,Mundo')
+    print('{} convertico para OCTAL é igual a {}'.format(num,oct(num)[2:]))
 elif con == 3:
-    print('Olá,Mundo')
+    print('{} convertido para HEXADECIMAL é igual a {}'.format(num, hex(num)[2:]))
 else:
     print('você não digitou um numero das alternativas.')
     print('>:(')
